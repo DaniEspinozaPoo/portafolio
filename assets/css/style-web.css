@@ -64,6 +64,7 @@
 			.tiles article header {
 				position: relative;
 				z-index: 3;
+				color: #FFFFFF;
 			}
 
 			.tiles article h3 {
