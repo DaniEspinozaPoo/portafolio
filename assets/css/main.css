@@ -2314,7 +2314,7 @@
 
 			.icon.major:before {
 				display: inline-block;
-				font-size: 6.25rem;
+				font-size: 2.75rem;
 				width: 2.25em;
 				height: 2.25em;
 				line-height: 2.2em;
@@ -2367,7 +2367,7 @@
 		@media screen and (max-width: 1680px) {
 
 			.icon.major:before {
-				font-size: 5.5rem;
+				font-size: 2.75rem;
 			}
 
 		}
@@ -2887,6 +2887,20 @@
 					}
 
 		}
+		.icon_features{
+			border: 2px solid;
+			border-radius: 50%;
+			color: #ffae8b;
+			width: 150px;
+			}
+			.card_portfolio {	
+				height: 200px;
+    			object-fit: cover;
+			}
+			.text-left{
+				text-align: left;
+			}
+		
 
 /* Statistics */
 
@@ -3263,6 +3277,7 @@
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
+
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -3327,6 +3342,9 @@
 					border: 0;
 					border-radius: 8px;
 					box-shadow: inset 0 0 0 1px transparent;
+					background-color: #ffffff;
+		color: #636363;
+		text-decoration: none;
 				}
 
 					#nav ul li a:hover {
@@ -3711,7 +3729,21 @@
 						}
 
 		}
-
+	
+	.btn-cards{
+		background: #dc7481 !important;
+    	border: none !important;
+	}	
+	.img_gorepair{
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}  
+	.style_iframe_ux{
+		position: relative;
+    width: 100%;
+    height: 500px;
+	}
 /* Footer */
 
 	#footer {
@@ -3726,6 +3758,8 @@
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
+		color: #FFFFFF;
+
 	}
 
 		#footer > * {
