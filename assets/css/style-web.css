@@ -778,6 +778,12 @@
 		font-size: 0.8em;
 		list-style: none;
 		padding-left: 0;
+		color: #FFFFFF;
+   		text-decoration: none;
+			a{
+				color: #FFFFFF;
+			text-decoration: none;
+			}
 	}
 
 		#footer .copyright li {
