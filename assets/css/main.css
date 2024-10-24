@@ -3056,6 +3056,7 @@
 
 			.spotlight .content header.major {
 				margin: 0 0 2em 0;
+
 			}
 
 		.spotlight .image {
@@ -3264,6 +3265,14 @@
 
 .mi_nombre{
 	font-family: 'Reenie Beanie', cursive;
+}
+.title_web{
+	h3{
+		color: #FFFFFF;
+		a{
+			color: #FFFFFF!important;
+		}
+	}
 }
 
 /* Nav */
